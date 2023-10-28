@@ -1,0 +1,15 @@
+global:
+  licenseKey: {YOUR_LICENSE_KEY}
+  cluster: {YOUR_CLUSTER_NAME}
+nri-infrastructure:
+  enabled: true
+nri-kube-events:
+  enabled: true
+nri-metadata-injection:
+  enabled: true
+nri-prometheus:
+  enabled: false
+newrelic-logging:
+  enabled: false
+kube-state-metrics:
+  enabled: true
